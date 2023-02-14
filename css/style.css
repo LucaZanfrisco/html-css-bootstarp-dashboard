@@ -1,5 +1,10 @@
 @import url('variables.css');
 
+/* Common */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* ------- */
 /* header */
 header{
     height: 4.375rem;
@@ -17,6 +22,9 @@ header{
 /* ------- */
 
 /* Main */
+.ms_container{
+    height: calc(100vh - 4.375rem);
+}
 /* Side-Bar */
 aside{
     background-image: url(../img/sidebar-bg.png);
@@ -25,6 +33,7 @@ aside{
     padding: 1.125rem;
     max-width: 9.375rem;
     color: white;
+
 }
 #sidebar > ul{
     height: 100%;
@@ -41,11 +50,10 @@ aside{
 }
 /* ------- */
 /* Dash-Board */
-.ms_col{
-    padding: 0 .8125rem;
-    flex-grow: 1;
-}
 .ms_dash-up{
     background-color: var(--ms-bg-dashboard-up);
+}
+.card{
+    height: 300px;
 }
 /* ------- */
