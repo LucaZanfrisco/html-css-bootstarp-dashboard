@@ -17,6 +17,7 @@ header{
 /* ------- */
 
 /* Main */
+/* Side-Bar */
 aside{
     background-image: url(../img/sidebar-bg.png);
     background-color: var(--ms-bg-sidebar);
@@ -32,13 +33,19 @@ aside{
     background-color: grey;
     cursor: pointer;
 }
-.ms_col{
-    background-color: coral;
-    flex-grow: 1;
-}
+
 @media screen and (min-width: 992px) {
     aside{
         width: 100%;
     }
+}
+/* ------- */
+/* Dash-Board */
+.ms_col{
+    padding: 0 .8125rem;
+    flex-grow: 1;
+}
+.ms_dash-up{
+    background-color: var(--ms-bg-dashboard-up);
 }
 /* ------- */
