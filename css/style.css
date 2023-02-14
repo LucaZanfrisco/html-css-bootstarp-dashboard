@@ -22,9 +22,11 @@ header{
 /* ------- */
 
 /* Main */
+
 .ms_container{
     height: calc(100vh - 4.375rem);
 }
+
 /* Side-Bar */
 aside{
     background-image: url(../img/sidebar-bg.png);
@@ -42,18 +44,18 @@ aside{
     background-color: grey;
     cursor: pointer;
 }
-
 @media screen and (min-width: 992px) {
     aside{
         width: 100%;
     }
 }
 /* ------- */
+
 /* Dash-Board */
 .ms_dash-up{
     background-color: var(--ms-bg-dashboard-up);
 }
-.card{
-    height: 300px;
+.badge{
+    background-color: var(--ms-bg-badge);
 }
 /* ------- */
