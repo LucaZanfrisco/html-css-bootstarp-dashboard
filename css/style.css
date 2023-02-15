@@ -60,3 +60,14 @@ aside{
     width: 2.5rem;
 }
 /* ------- */
+
+/* Offcanvas */
+#offcanvasRight{
+    width: 100%;
+}
+@media screen and (min-width: 992px) {
+    #offcanvasRight{
+        width: 50%;
+    }
+}
+/* ------- */
