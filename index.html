@@ -34,19 +34,32 @@
                     <img class="img-fluid d-none d-lg-block" src="img/logo.svg" alt="logo-desktop">
                 </div>
                 <!-- Search col -->
-                <div class="col-9">
+                <div class="col">
                     <form class="d-flex position-relative" role="search">
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <input class="form-control me-2 px-5" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                     </form>
                 </div>
                 <!-- Icon col -->
-                <div class="col">
+                <div class="col-auto">
                     <ul class="row list-unstyled mb-0 ">
-                        <li class="col p-0"><i class="fa-solid fa-list d-none d-xl-inline-block"></i></li>
-                        <li class="col p-0"><i class="fa-solid fa-circle-question d-none d-xl-inline-block"></i></li>
-                        <li class="col p-0 "><i class="fa-solid fa-ellipsis-vertical d-none d-xl-inline-block"></i></li>
-                        <li class="col "><i class="fa-solid fa-bell"></i></li>
+                        <li class="col "><i class="fa-solid fa-list d-none d-xl-inline-block"></i></li>
+                        <li class="col "><i class="fa-solid fa-circle-question d-none d-xl-inline-block"></i></li>
+                        <li class="col"><i class="fa-solid fa-ellipsis-vertical d-none d-xl-inline-block"></i></li>
+                        <!-- Dropdown link -->
+                        <li class="col dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell"></i>
+                            </a>
+                            <!-- dropdown menu -->
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                            <!-- /dropdown menu -->
+                        </li>
+                        <!-- /dropdown link -->
                     </ul>
                 </div>
             </div>

@@ -19,6 +19,12 @@ header{
     top: 30%;
     left: 1.25rem;
 }
+.dropdown-toggle{
+    color: orange;
+}
+.dropdown-toggle::after{
+    display: none;
+}
 /* ------- */
 
 /* Main */
