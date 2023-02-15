@@ -19,6 +19,9 @@ header{
     top: 30%;
     left: 1.25rem;
 }
+header .form-control{
+    background-color: lightgray;
+}
 .dropdown-toggle{
     color: orange;
 }
