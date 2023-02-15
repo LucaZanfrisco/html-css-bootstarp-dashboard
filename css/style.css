@@ -10,7 +10,7 @@ header{
     height: 4.375rem;
     background-color: var(--ms-bg-header);
     padding: .625rem 0;
-}
+} 
 .ms_mobile-logo{
     max-width: 3.125rem;
 }
@@ -31,11 +31,9 @@ header{
 aside{
     background-image: url(../img/sidebar-bg.png);
     background-color: var(--ms-bg-sidebar);
-    height: calc(100vh - 4.375rem);
     padding: 1.125rem;
     max-width: 9.375rem;
     color: white;
-
 }
 #sidebar > ul{
     height: 100%;
@@ -57,5 +55,8 @@ aside{
 }
 .badge{
     background-color: var(--ms-bg-badge);
+}
+.ms_img-avatar{
+    width: 2.5rem;
 }
 /* ------- */
